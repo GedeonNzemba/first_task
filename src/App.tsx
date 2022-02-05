@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import Header from "./components/Header";
+import './App.css'
+
+const Home = styled.div`
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+  height: 100vh;
+`;
+
+const Main = styled.main`
+  padding: 3rem;
+  width: 100%;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Home>
+      <Header />
+
+      <Main></Main>
+    </Home>
   );
 }
 
