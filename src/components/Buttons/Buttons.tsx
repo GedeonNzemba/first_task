@@ -1,15 +1,9 @@
 import React, {useState} from "react";
 import styled from "styled-components";
 
-interface styleTypes {
-    color: string;
-    background: string
-}
-
 export const HomeButtonFancy:React.FC = () => {
 
     const [onMouseDown, setOnMouseDown] = useState(false)
-    const btn = document.getElementById('fancy_btn');
 
     return (
         <Container >
