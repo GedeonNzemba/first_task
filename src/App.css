@@ -1,11 +1,13 @@
 html {
     padding: 0;
     margin: 0;
+    background: #f2f2f2;
 }
 body {
     padding: 0;
     margin: 0;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
 }
 
